@@ -16,5 +16,7 @@
   <!--</div>-->
 <!--</div>-->
 <div class="container">
-  <app-game-control></app-game-control>
+  <app-game-control (valor)="receiver($event)"></app-game-control>
+  <hr>
+  <app-odd ngFor="valor in valores"></app-odd>
 </div>

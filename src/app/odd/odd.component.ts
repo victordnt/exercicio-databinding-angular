@@ -7,9 +7,11 @@ import { Component, OnInit } from '@angular/core';
 })
 export class OddComponent implements OnInit {
 
-  constructor() { }
+  valores = [];
+  constructor() {}
 
   ngOnInit() {
   }
+
 
 }
